@@ -109,3 +109,37 @@ SQL: widely used non-procedural language
 - process of designing general structure of the database
 - Logical design - Deciding on the database logical schema
 	- Database design requires that we find a "good" 
+- slide 38:
+- design problems are building/budget redundant, look at 100k and taylor building
+
+### The entity-relationship model
+- database design model
+- E-R model
+- relationships between entities
+	- e.g. account 101 is held by customer smith
+- Entities e.g. customers, accounts, bank branch
+### Query Processor
+- query processor components
+
+
+### Transaction management
+- **Transaction** is a collection of operations that performs a single logical function in a database app
+- **Transaction-management component** ensures database remains consistent despite system failures and transaction failures
+- **Concurrency-control manager** controls the 
+
+
+### Database Administrator
+- coordinates all the activities of the database.
+- duties include:
+	 - schema definition
+	 - storage structure and access method definition
+	 - schema and physical organization modification
+	 - granting user auth to access db
+	 - specifying integrity constraints
+
+### Database Architecture
+greatly influenced by underlying computer systems db is running on:
+- centralized
+- client-server
+- parallel (multi-processor)
+- distributed
