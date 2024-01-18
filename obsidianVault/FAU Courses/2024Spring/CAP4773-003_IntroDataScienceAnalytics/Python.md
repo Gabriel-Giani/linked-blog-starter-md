@@ -105,3 +105,55 @@ print("go vote")
 
 
 ### if elif else statement
+
+
+
+### for loop statement with the range()
+```
+for index in range()
+```
+
+### while
+
+
+
+### break - for loop
+**break** - is used to 
+
+
+### break - while loop
+
+
+### continue
+the continue statement is used inside a for loop or a while loop. Continue statement skips 
+
+
+### pass 
+is a statement that does nothing. It's just a placeholder for code you'll write in the future.
+
+
+### Functions
+name code black that performs a job or returns a value.
+
+Use functions to divide a large program into smaller and more manageable parts.
+
+
+```
+def greet()
+	# display a greeting to users
+	print('Hi')
+```
+
+
+### Recursion
+process of defining of something in terms of itself.
+i.e. function that calls itself
+
+### modules
+can be defined as .py a python program file containing functions, classes, or variables. Provides flexibility to organize the code in a logical way.
+
+1.  import statement
+2. from import statement
+
+### Packages
+facilitate developer with app development environment by providing
