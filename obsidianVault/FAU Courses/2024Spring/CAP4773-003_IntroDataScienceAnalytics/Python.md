@@ -157,3 +157,124 @@ can be defined as .py a python program file containing functions, classes, or va
 
 ### Packages
 facilitate developer with app development environment by providing
+
+### List 
+
+
+### Tuple
+a tuple is a list that cannot change. Python refers to a value that cannot change as immutable. So by definition, a **Tuple is an immutable list.**
+
+
+### Sorted Function
+sort() method sorts a list in place. 
+
+
+
+### Set
+python set is an unordered list of immutable elements. It means: 
+- elements in a set are unordered
+- elements in a set are unique. A set doesn't allow duplicate elements.
+- elements in a set cannot be changed
+To define a set in python
+
+
+### from white board
+               ordered   immutable. unordered-immut
+- data types: (list,               tuple,                set,       dictionary)
+            [].       ()        {}.       {}
+
+
+
+
+### set operations
+
+
+
+### Dictionary
+
+is a collection of key-value pairs where each key is associated with a value.
+
+A value in the key-pair can be a number, strings, list, 
+
+
+```
+empty-dict = {}
+```
+
+To access 
+
+
+
+### NumPy
+stands for **Numerical Python** and is a Python library that performs numerical calculations.
+
+NumPy is very fast b/c it is written in c language.
+
+Built on linear algebra. It's about matrices and vectors and performing mathematical calculations on them.
+
+Unlike built-in list type tha tcan hold the elements of different types.
+
+one data type for all elements. 
+
+
+
+
+
+
+
+The key concept in NumPy is the NumPy array data type. A NumPy array may have one or more dimensions.
+
+Vector (1D array), Matrice (2D array), Tensor (3D array)
+see images
+
+
+
+
+### NumPy
+```
+pip install numpy
+```
+
+```
+import numpy as np
+```
+
+
+
+
+
+### Getting Shapes
+
+The shape returns a tuple:
+
+- the number of elements in the tuple is the number of axis.
+- each tuple element stores the number of elements of the corresponding axis.
+
+look at image slide 93
+
+
+### NumPy zeros() - ones()
+
+The **zeroes** function
+
+### Arrange()
+
+numPy arrange() 
+
+
+
+### Array indexing - 1D
+along a single axis, you can select elements using indices
+
+
+
+
+### array slicing 
+numPy array use brackets[] and : notations for slicing
+
+
+### arrray slicing - multidim array
+
+
+
+### aggregate functions
