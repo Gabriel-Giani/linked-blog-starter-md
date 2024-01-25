@@ -277,4 +277,79 @@ numPy array use brackets[] and : notations for slicing
 
 
 
-### aggregate functions
+### aggregate functions - sum
+
+
+### aggregate functions -reshape
+changes the shape of an array without changing its elements
+
+
+### array operations - transpose
+
+
+### array operations flatten
+returns a copy of an array collapsed into one dimension
+
+
+### array operations ravel
+
+accepts an array and returns a 1-d array
+
+### arithmetic operations
+add()
+subtract()
+multiply()
+divide()
+broadcasting
+
+### Pandas
+important python library
+ability to read from and write to an extensive list of formats
+read from csv and json files
+
+
+#### Key benefits
+- less verbose
+
+
+### Checking for missing values in pandas with .isnull()
+
+### using .loc[] and .iloc[] to fetch rows
+
+### conditional slicing
+
+
+
+### Cleaning Data
+most common task in data science.
+pandas lets you preprocess data
+
+##### Dealing with missing data technique #1
+Dropping missing values
+You can use .dropna()
+
+The axis argument lets you specify whether you are dropping rows, or columns, with missing values.
+
+You can also drop both rows and columns with missing values by settings the how argument to 'all'
+```
+how = all
+```
+
+#### Dealing with missing data technique 2
+Replacing missing values 
+
+instead of dropping, replacing missing values with a summary statistic or specific value maybe the best way to go
+
+```
+df3 = df3.fillna(mean_value)
+```
+
+
+### Dealing with duplicate data
+
+### renaming columns 
+rename()
+
+
+### Aggregating data with .groupby()
+
